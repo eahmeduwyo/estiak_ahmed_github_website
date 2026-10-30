@@ -10,3 +10,7 @@ body.dark{--bg:#08111f;--surface:#0d1a2d;--surface2:#12243b;--text:#eef4fb;--mut
 @media(max-width:940px){.nav-toggle{display:block;margin-left:auto}.nav{position:absolute;left:20px;right:20px;top:64px;display:none;flex-direction:column;align-items:stretch;gap:3px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px;box-shadow:var(--shadow)}.nav.open{display:flex}.nav a{padding:10px 8px}.hero-grid,.split,.featured-research,.contact-grid,.credentials-grid{grid-template-columns:1fr}.card-grid.three,.skills-grid{grid-template-columns:repeat(2,1fr)}.hero{min-height:auto}}
 @media(max-width:680px){.container{width:min(100% - 28px,var(--max))}.section{padding:72px 0}.brand-text{display:none}.hero{padding-top:74px}h1{font-size:2.75rem}.quick-stats{grid-template-columns:1fr}.card-grid.three,.project-grid,.skills-grid,.leadership-grid{grid-template-columns:1fr}.timeline-item{grid-template-columns:1fr;gap:5px}.hero-card{padding:23px}.featured-research{padding:24px}.footer-wrap{flex-direction:column}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}}
+
+/* Requested profile and conference photography. */
+.avatar.profile-portrait{width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;object-position:57% 27%;display:block}
+.conference-photo{display:block;width:100%;max-width:760px;height:auto;aspect-ratio:3/2;object-fit:cover;object-position:center top;border-radius:10px;margin-top:18px}

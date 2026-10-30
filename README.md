@@ -1,25 +1,7 @@
-# Estiak Ahmed - Personal Academic Website
+# Estiak Ahmed website
 
-Responsive, dependency-free HTML/CSS/JS portfolio prepared for GitHub Pages.
+Open index.html to view the website. For publishing, upload index.html, styles.css, script.js, .nojekyll, and the assets folder to your web host or GitHub Pages repository root.
 
-## Publish on GitHub Pages
-1. Create a new GitHub repository.
-2. Upload `index.html`, `styles.css`, `script.js`, `.nojekyll`, and the `assets` folder to the repository root.
-3. Open **Settings > Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select `main` and `/ (root)`, then save.
+The supplied JavaScript is preserved unchanged, including mobile navigation, saved light/dark preference, project filters, scroll reveals, copy email, and automatic footer year. Clipboard copying works on HTTPS or localhost; the original email fallback remains available elsewhere.
 
-## Update your CV
-Replace `assets/Estiak_Ahmed_CV.pdf` whenever your CV changes. Keep the filename the same so all website links continue to work.
-
-## Optional custom domain
-If you want to continue using `estiakahmed.com`, enter it under GitHub Pages custom-domain settings and update the DNS records with your domain registrar.
-
-## Built-in features
-- Mobile responsive layout
-- Light/dark mode
-- Project filters
-- Scroll animations
-- Copy-email button
-- CV download link
-- LinkedIn, Google Scholar, ORCID, DOI links
+Content was updated from the current CV. The CV and all CV links are excluded. Both contact email addresses are retained. The two requested photographs are included, with display cropping controlled by CSS.
